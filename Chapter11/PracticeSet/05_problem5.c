@@ -22,7 +22,7 @@ int main() {
 
     for (int i = 0; i < n; i++)
     {
-        ptr = 7 * (i+1);
+        ptr[i] = 7 * (i+1);
     }
 
     printf("The Array's \n");
